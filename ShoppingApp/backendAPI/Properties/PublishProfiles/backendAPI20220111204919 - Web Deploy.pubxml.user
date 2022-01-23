@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAlENCeOQE5kiItJ+VTItsiwAAAAACAAAAAAAQZgAAAAEAACAAAACRyyslcXbk9hp9xcuxxWFuExDKLByHQfCII6aNxS6iZQAAAAAOgAAAAAIAACAAAAAw1h9Gufr/zN/4ORtqENzNS7qPSjsmcDkfroWhPg1Qg4AAAADBD/kyZ6ucu767Jkl0P/xNNtkZ4Fpt5O8ij31zHmdWz69jCX5YJfHx8PkLmzzc/caTF6da9Pt8gFixlHFrn+nJ6n6WfWNRKyR+Gi+XZNaeLLfvIXenjMjXoss6nzSGrLtRZledqiTfoAVz3qjDqchhzb6/T1njXUdB/g/nz8LFNkAAAABeasQQrR8tEBIe3Oclz2E1obUR0rsa5WDzrnd2cRNUUlk32hEOLaR0Ob5JrYeQub8fCdL4iZhuxlM9elKqMkHH</EncryptedPassword>
+    <History>True|2022-01-11T15:35:27.8844351Z;True|2022-01-11T21:03:08.4312003+05:30;True|2022-01-11T21:00:16.4456204+05:30;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="backendAPI.Data.StoreContext">
+      <Value>Data Source=tcp:deployeazureappdbserver.database.windows.net,1433%3bInitial Catalog=backendAPI_db%3bUser Id=vidyap%40deployeazureappdbserver%3bPassword=Vidyashree!2606</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
